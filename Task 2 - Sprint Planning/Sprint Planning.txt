@@ -1,0 +1,26 @@
+Sprint goal: 
+    Deliver a working software demo for the product owner.
+Team capacity:
+    - 6 members [4 software developers - 2 testers].
+    - 40 hours per week.
+    - 2 weeks sprint.
+Product backlog items:
+    = Create an account.
+	- create a form to allow user to enter a username/email/phone number and a password so they can use the application.
+    = View resturants.	
+	- allow the user to view all available resturants so that they can choose from them.
+	- allow the user to view nearby resturants so that he can recieve the orders faster.
+    = Search resturants,
+        - allow a user to search for resturants based on name/location/reviews/availability/category so that he can order faster.
+    = View menu.
+	- allow a user to view the resturant menu items and each item details such as price, ingredients so that he can pick from them.
+
+Task assignments:
+    = Software developers:
+	- Software developer 1 is assigned to [Create an account] task and estimated 20 hours to be done.
+	- Software developer 2 is assigned to [View resturants] task and estimated 30 hours to be done.
+	- Software developer 3 is assigned to [Search resturants] task and estimated 20 hours to be done..
+	- Software developer 4 is assigned to [View menu] task and estimated 20 hours to be done..
+    = Software testers:
+	- Software tester 1 is assigned to [Create an account] and [View resturants] tasks and estimated 10 hours to be done.
+	- Software tester 2 is assigned to [Search resturants] and [View menu] tasks and estimated 10 hours to be done.
