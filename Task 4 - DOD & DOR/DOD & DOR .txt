@@ -1,0 +1,38 @@
+Definiton Of Done (DOD):
+
+1. Create a form to allow user to enter a username/email/phone number and a password so they can use the application.
+ = each form input must have validations
+  - Username must has no spaces and in English.
+  - Email must be a valid email.
+  - Phone number must follow the egyptian phone numbers must start with +201 and is followed by a [0/1/2/5]
+  - Password must be a mix of letters and numbers.
+  - If there are any errors display related messages to the user.
+ = the user can fill the form and then his account is registered so he can login successfuly.
+2. Allow the user to view all available resturants so that they can choose from them.
+ = A list of the available resutrants must be returned once the user is logged in to our application.
+ = Each resturant is represented in a card containing the resturant name , rate , category.
+ = The list must be paged so each page has only 10 resturants 
+  - when the user scroll down to the 10th, another 10 resturants are added to the list.
+  - if no more resturants in the database so when the user scrolls nothing happens.
+3. Allow the user to view nearby resturants so that he can recieve the orders faster.
+ = The user must allow our application to access his current location. 
+ = The application must show a list of all nearby resturants depending on the user's location.
+  - The list must be paged so each page has only 10 resturants 
+   * When the user scroll down to the 10th, another 10 resturants are added to the list.
+   * If no more resturants in the database so when the user scrolls nothing happens.
+4. Allow the user to search for resturants based on name/location/reviews/availability/category so that he can order faster.
+ = Add a search input at the top of the page so the user can type inside it and search for a specific resturnat.
+ = Add a list of options to make the user filter resturants by location/reviews/availability/category.
+ = If no data is returned display a related message to the user.
+5. Allow a user to view the resturant menu items and each item details such as price, ingredients so that he can pick from them.
+ = Once the user clicks on the resturant card another page is shown, displaying the resturant's menu.
+  - Each menu item must have a price and description.
+  - Add a button next to each menu item so the user can add it to his order.
+  
+                ---------------------------------------------------------------------------------------------------------------------------------------
+Definition Of Ready (DOR):
+   = The story should be written exactly in the ‘user story’ format.
+   = The Acceptance criteria must be understood by the team.
+   = The Team needs to estimate the story.
+   = The team should understand how to provide a demo of the features.
+   = The Performance criteria should be understood by the team.
